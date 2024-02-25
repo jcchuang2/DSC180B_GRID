@@ -2,7 +2,8 @@
 title: About GRID
 feature_text: |
   ## GRID: Geographic Reconnaissance for Infrastructure Detection
-  A Jekyll boilerplate theme designed to be a starting point for any Jekyll website
+  An interace developed by UC San Diego Data Science students that detects San Diego Gas & Electric power poles through  
+  satellite imagery utilizing machine learning image recognition.
 feature_image: "assets/cover_photo.jpg"
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
