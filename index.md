@@ -2,15 +2,16 @@
 title: About GRID
 feature_text: |
   ## GRID: Geographic Reconnaissance for Infrastructure Detection
-  An interace developed by UC San Diego Data Science students that detects San Diego Gas & Electric power poles through  
-  satellite imagery utilizing machine learning image recognition.
-feature_image: "assets/Utility_Poles-6.jpg"
+  An interface developed by UC San Diego Data Science students that detects San Diego Gas & Electric power poles through satellite imagery utilizing machine learning image recognition.
+feature_image: "assets/cover_photo_1.jpg"
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
 
 Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get rolling immediately. Install it, configure it, tweak it, push it.
 
-## Features
+## Introduction
+
+### Fire Risk Posed By Electrical Utility Structures
 
 - Available as a **theme gem** and **GitHub Pages** theme
 - Clear and elegant design that can be used out of the box or as solid starting point
@@ -28,7 +29,13 @@ Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather
 - Has 9 of the most popular networks as performant sharing buttons
 - Has documentation
 
-## Examples
+## Methodology
+
+### Data Collection
+
+### Model Training
+
+### Map Interface
 
 Here are a few examples of Alembic out in the wild being used in a variety of ways:
 
@@ -36,7 +43,9 @@ Here are a few examples of Alembic out in the wild being used in a variety of wa
 - [case2111.github.io](https://case2111.github.io/)
 - [karateca.org](https://www.karateca.org/)
 
-## Installation
+## Results
+
+## Conclusion
 
 ### Quick setup
 
