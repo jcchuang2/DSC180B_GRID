@@ -11,6 +11,10 @@ Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather
 
 ## Introduction
 
+Energy companies, like San Diego Gas & Electric, have the responsibility of ensuring that power is reliably and safely distributed. With Southern California being a historically fire prone region, it is even more essential that the utility company maintains its grid and minimizes the risk of fires caused by it's equipment. SDG&E alone has thousands of miles of power lines supplying energy to millions of customers in its service territory that spans the San Diego and southern Orange counties. This makes the task of monitoring and maintaining utility equipment imperative not only for consistent electrical delivery, but for the safety of human lives and property.
+
+This project seeks to develop a tool using satellite imagery and object detection to assist in this task, providing SDG&E with up-to-date and accurate imagery of their equipment and allowing them to identify potential risks on or around the equipment and make informed decisions based on the state of their utilities.
+
 ### Fire Risk Posed By Electrical Utility Structures
 
 - Available as a **theme gem** and **GitHub Pages** theme
