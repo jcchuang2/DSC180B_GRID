@@ -41,6 +41,8 @@ This project seeks to develop a tool using satellite imagery and object detectio
 
 ### Map Interface
 
+"assets/Screenshot 2024-02-15 180829.png"
+
 Here are a few examples of Alembic out in the wild being used in a variety of ways:
 
 - [bawejakunal.github.io](https://bawejakunal.github.io/)
