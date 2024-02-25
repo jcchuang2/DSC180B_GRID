@@ -41,7 +41,7 @@ This project seeks to develop a tool using satellite imagery and object detectio
 
 ### Map Interface
 
-![image](assets/Screenshot 2024-02-15 180829.png "Map Interface Showing UCSD")
+![image](assets/interface_scrnshot.png "Map Interface Showing UCSD")
 
 Here are a few examples of Alembic out in the wild being used in a variety of ways:
 
