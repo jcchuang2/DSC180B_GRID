@@ -3,7 +3,7 @@ title: About GRID
 feature_text: |
   ## GRID: Geographic Reconnaissance for Infrastructure Detection
   A Jekyll boilerplate theme designed to be a starting point for any Jekyll website
-feature_image: "assets/cover_photo.jpg"
+feature_image: "assets/Utility_Poles-6.jpg"
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
 
