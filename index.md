@@ -3,7 +3,7 @@ title: About GRID
 feature_text: |
   ## GRID: Geographic Reconnaissance for Infrastructure Detection
   An interace developed by UC San Diego Data Science students that detects San Diego Gas & Electric power poles through  
-satellite imagery utilizing machine learning image recognition.
+  satellite imagery utilizing machine learning image recognition.
 feature_image: "assets/Utility_Poles-6.jpg"
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
