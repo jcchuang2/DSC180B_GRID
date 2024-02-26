@@ -36,4 +36,5 @@ For our user interface, we utilized Flask in order to create a website that woul
 
 
 ## Conclusion
+Energy companies like SDG\&E are responsible for distributing electricity throughout the country, and so keeping track of utilities such poles is important. To carry this out, we trained a DETR model on labed satellite images of poles which achieved fairly accurate results in identifying other poles from Google Map's satellite view. Our model performs well within San Diego County, however, we believe that our model can still be further improved with more labeled training images. Furthermore, labeled training images from other parts of the US would also add more accuracy and reliability when using the model outside of San Diego County. 
 
