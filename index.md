@@ -3,7 +3,7 @@ title: About GRID
 feature_text: |
   ## GRID: Geographic Reconnaissance for Infrastructure Detection
   An interface utilizing satellite imagery and machine learning for the purpose of fire risk analysis and prevention.
-feature_image: "assets/cover_photo_2.jpg"
+feature_image: "assets/cover_photo_2.png"
 excerpt: "A map interface tool developed by UC San Diego Data Science students that detects San Diego Gas & Electric power poles through satellite imagery utilizing machine learning image recognition."
 ---
 
@@ -21,7 +21,7 @@ In order to train an image recognition model that can identify electrical infras
 
 ### Model Training
 
-The model we used was Facebook’s DETR object detection model (DEtection TRansformer). This object detection framework, presented by Facebook AI at the European Conference on Computer Vision 2020 (ECCV), is simple but accurate, having efficient runtime performance. More information about this model can be found in their paper ["End-to-End Object Detection with Transformers"](https://arxiv.org/abs/2005.12872) (Carion et al., 2020). Using Facebook’s DETR model, we adapted it to incorporate our pole class, fine-tuning the model and training it with our image data that we collected. To train the model, the tagged image data was split into an 80/20 training and validation split and the model trained for 50 epochs. We then saved the model's weights and specifications so that we could incorporate it into our user interface without having to retrain our model.
+The model we used was Facebook’s DETR object detection model (DEtection TRansformer). This object detection framework, presented by Facebook AI at the European Conference on Computer Vision 2020 (ECCV), is simple but accurate, having efficient runtime performance. More information about this model can be found in their paper "[End-to-End Object Detection with Transformers](https://arxiv.org/abs/2005.12872)" (Carion et al., 2020). Using Facebook’s DETR model, we adapted it to incorporate our pole class, fine-tuning the model and training it with our image data that we collected. To train the model, the tagged image data was split into an 80/20 training and validation split and the model trained for 50 epochs. We then saved the model's weights and specifications so that we could incorporate it into our user interface without having to retrain our model.
 
 ### Map Interface
 
