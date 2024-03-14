@@ -34,7 +34,7 @@ For our user interface, we utilized Flask in order to create a website that woul
     <img src="assets/interface_scrnshot.png">
     
     *Figure 1: Map Interface Showing UCSD*
-p>
+<p>
 
 ## Results
 
@@ -45,7 +45,7 @@ The model performs well, heavily relying on the shadow of the poles for object d
     <img src="assets/img1.png">
     
     *Figure 2*
-p>
+<p>
 
 However, because the model heavily relies on the shadows, it can be easily fooled by shadows of palm trees and other objects. This can be seen in Figure 2 where the model incorrectly detects a fence line as a pole
 
@@ -54,7 +54,7 @@ However, because the model heavily relies on the shadows, it can be easily foole
     <img src="assets/img2.png">
     
     *Figure 3*
-p>
+<p>
 
 
 ## Conclusion
