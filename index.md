@@ -9,7 +9,7 @@ excerpt: "A map interface tool developed by UC San Diego Data Science students t
 
 A map interface tool developed by UC San Diego Data Science students that detects San Diego Gas & Electric power poles through satellite imagery utilizing machine learning image recognition.
 
-Github: [https://github.com/papa-noel/map_user_interface]
+Github: [https://github.com/papa-noel/map_user_interface](https://github.com/papa-noel/map_user_interface)
 
 ## Introduction
 
