@@ -9,6 +9,8 @@ excerpt: "A map interface tool developed by UC San Diego Data Science students t
 
 A map interface tool developed by UC San Diego Data Science students that detects San Diego Gas & Electric power poles through satellite imagery utilizing machine learning image recognition.
 
+Github: https://github.com/papa-noel/map_user_interface
+
 ## Introduction
 
 Energy companies, like San Diego Gas & Electric, have the responsibility of ensuring that power is reliably and safely distributed. With Southern California being a historically fire prone region, it is even more essential that the utility company maintains its grid and minimizes the risk of fires caused by it's equipment. SDG&E alone has thousands of miles of power lines supplying energy to millions of customers in its service territory that spans the San Diego and southern Orange counties. This makes the task of monitoring and maintaining utility equipment imperative not only for consistent electrical delivery, but for the safety of human lives and property.
@@ -23,7 +25,7 @@ In order to train an image recognition model that can identify electrical infras
 
 #### Model Training
 
-The model we used was Facebook’s DETR object detection model (DEtection TRansformer). This object detection framework, presented by Facebook AI at the European Conference on Computer Vision 2020 (ECCV), is simple but accurate, having efficient runtime performance. More information about this model can be found in their paper "[End-to-End Object Detection with Transformers](https://arxiv.org/abs/2005.12872)" (Carion et al., 2020). Using Facebook’s DETR model, we adapted it to incorporate our pole class, fine-tuning the model and training it with our image data that we collected. To train the model, the tagged image data was split into an 80/20 training and validation split and the model trained for 50 epochs. We then saved the model's weights and specifications so that we could incorporate it into our user interface without having to retrain our model.
+The model we used was Facebook’s DETR object detection model (DEtection TRansformer). This object detection framework, presented by Facebook AI at the European Conference on Computer Vision 2020 (ECCV), is simple but accurate, having efficient runtime performance. More information about this model can be found in their paper "[End-to-End Object Detection with Transformers](https://arxiv.org/abs/2005.12872)" (Carion et al., 2020). Using Facebook’s DETR model, we adapted it to incorporate our pole class, fine-tuning the model and training it with our image data that we collected. To train the model, the tagged image data was split into an 80/20 training and validation split and the model trained for 50 epochs. We then saved the model's weights and specifications so that we could incorporate it into our user interface without having to retrain our model. The model training process can be found in our github repo: [GRID-Object-Detection-Model](https://github.com/jcchuang2/GRID-Object-Detection-Model).
 
 #### Map Interface
 
