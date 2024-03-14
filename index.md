@@ -30,12 +30,22 @@ The model we used was Facebook’s DETR object detection model (DEtection TRansf
 For our user interface, we utilized Flask in order to create a website that would be able integrate our model with an interactive map. We embedded an interactive map using the Google Embed API, where users can navigate to any area and run our model in order to identify poles in the current view. Flask allowed us to integrate a script where PyTorch loaded our trained model and ran it on the current view.
 
 ![image](assets/interface_scrnshot.png "Map Interface Showing UCSD")
+*Figure 1: Map Interface Showing UCSD*
 
 ## Results
 
+The model performs well, heavily relying on the shadow of the poles for object detection. As a result, the model has a high accuracy rate in detecting the poles with defined shadows. This can be seen in Figure 1 where every pole is identified and boxed.
+
+![image](assets/img1.png "Figure 2: ")
+*Figure 2*
+
+However, because the model heavily relies on the shadows, it can be easily fooled by shadows of palm trees and other objects. This can be seen in Figure 2 where the model incorrectly detects a fence line as a pole
+
+![image](assets/img2.png "Figure 3")
+*Figure 3*
 
 
 ## Conclusion
 
-Energy companies like SDG&E are responsible for distributing electricity throughout the country, and so keeping track of utilities such poles is important. To carry this out, we trained a DETR model on labed satellite images of poles which achieved fairly accurate results in identifying other poles from Google Map's satellite view. Our model performs well within San Diego County, however, we believe that our model can still be further improved with more labeled training images. Furthermore, labeled training images from other parts of the US would also add more accuracy and reliability when using the model outside of San Diego County. 
+Energy companies like SDG&E are responsible for distributing electricity throughout the country, and so keeping track of utilities such poles is important. To carry this out, we trained a DETR model on labed satellite images of poles which achieved fairly accurate results in identifying other poles from Google Map's satellite view. Our model performs well within San Diego County, however, we believe that our model can still be further improved with more labeled training images. Furthermore, labeled training images from other parts of the US would also add more accuracy and reliability when using the model outside of San Diego County. We hope that this project demonstrates the usefulness that satellite imagery has for utility companies and that this project can be expanded upon to assist utility companies in their responsibilities of maintaining their assets, eliminating fire risks, and safely providing power to their customers.
 
