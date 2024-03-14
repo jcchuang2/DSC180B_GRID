@@ -2,9 +2,9 @@
 title: About GRID
 feature_text: |
   ## GRID: Geographic Reconnaissance for Infrastructure Detection
-  An interface utilizing satellite imagery and machine learning for the purpose of fire risk prevention.
-feature_image: "assets/cover_photo_2.png"
-excerpt: "A map interface tool developed by UC San Diego Data Science students that detects San Diego Gas & Electric power poles through satellite imagery utilizing machine learning image recognition."
+  Utilizing satellite imagery and machine learning for the purpose of fire risk prevention.
+feature_image: "assets/cover_photo.png"
+excerpt: "A map interface tool developed by UC San Diego Data Science students that detects San Diego Gas & Electric power poles through satellite imagery utilizing machine learning object detection."
 ---
 
 A map interface tool developed by UC San Diego Data Science students that detects San Diego Gas & Electric power poles through satellite imagery utilizing machine learning image recognition.
