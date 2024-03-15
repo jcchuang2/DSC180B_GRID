@@ -49,7 +49,7 @@ The model performs well, heavily relying on the shadow of the poles for object d
     Figure 2
 </p>
 
-However, because the model heavily relies on the shadows, it can be easily fooled by shadows of palm trees and other objects. This can be seen in Figure 2 where the model incorrectly detects a fence line as a pole
+However, because the model heavily relies on the shadows, it can be easily fooled by shadows of palm trees and other objects. This can be seen in Figure 2 where the model incorrectly detects a fence line as a pole.
 
 <p align="center">
 
