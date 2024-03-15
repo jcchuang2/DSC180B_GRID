@@ -60,9 +60,7 @@ However, because the model heavily relies on the shadows, it can be easily foole
 
 While further work needs to be done to improve our model, the concept remains the same. By detecting poles, this tool can help SDG&E keep track of their assets. Through the satellite view perspective, it allows SDG&E to monitor poles and identify potential hazards more easily across their service territory.
 
-[![alt text](https://youtu.be/o_0rxHQO238)](https://youtu.be/o_0rxHQO238)
-
-
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/o_0rxHQO238/0.jpg)](https://www.youtube.com/watch?v=o_0rxHQO238)
 
 
 ## Conclusion
