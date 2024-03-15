@@ -60,6 +60,10 @@ However, because the model heavily relies on the shadows, it can be easily foole
 
 While further work needs to be done to improve our model, the concept remains the same. By detecting poles, this tool can help SDG&E keep track of their assets. Through the satellite view perspective, it allows SDG&E to monitor poles and identify potential hazards more easily across their service territory.
 
+<iframe width="560" height="315" src="https://youtu.be/o_0rxHQO238" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 ## Conclusion
 
 Energy companies like SDG&E are responsible for distributing electricity throughout the country, and so keeping track of utilities such poles is important. To carry this out, we trained a DETR model on labed satellite images of poles which achieved fairly accurate results in identifying other poles from Google Map's satellite view. Our model performs well within San Diego County, however, we believe that our model can still be further improved with more labeled training images. Furthermore, labeled training images from other parts of the US would also add more accuracy and reliability when using the model outside of San Diego County.
